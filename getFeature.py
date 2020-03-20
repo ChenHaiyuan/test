@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import re
-#modify...dddd
+#modify...dddd的点点滴滴
 def getFeaure(ln_root, ln_ult):
     # 利用pandas建立一个空表，每一列为一个特征
     data = pd.DataFrame(columns=("cnt_num", "cnt_species", "cnt_len_en", "cnt_wid_en", \
